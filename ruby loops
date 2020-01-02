@@ -1,0 +1,35 @@
+# Hello World Program in Ruby
+puts "Hello World!";
+
+# a = [1,2,3,4]
+# puts a.collect{|n| n*n}
+# puts a
+# puts "***********************"
+# puts a.collect{|n| n>2}
+
+
+# a = [1,2,3,4]
+# a.select{|n| puts n*n}
+# puts a
+# puts "***********************"
+# puts a.select{|n| n>2}
+# puts a
+
+# a = [1,2,3,4]
+# puts a.map{|n| n*n}
+# puts a
+# puts a.map{|n| n>2}
+# puts "***********************"
+
+# a = [1,2,3,4]
+# puts a.each{|n| n*n}
+# puts a
+# puts a.each{|n| n>2}
+
+
+a=[1,2, 3]
+puts a.inject(10){|sum, x| p "s #{sum}"; puts "x #{x}"; sum=sum+x}
+ a.inject(0){|c| p c}
+ 
+puts a.inject(:+)
+
